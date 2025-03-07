@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Instalar Netlify CLI
+        run: npm install -g netlify-cli
+
       - name: Instalar pnpm
         run: npm install -g pnpm
 
@@ -27,7 +30,7 @@ jobs:
           pnpm run build
 
       - name: Desplegar en Netlify
-        run: npx netlify deploy --prod --dir=build
+        run: npx netlify deploy --prod --dir=.next
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
