@@ -27,6 +27,9 @@ jobs:
       - name: Instalar pnpm
         run: npm install -g pnpm
 
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
       - name: Instalar dependencias y construir proyecto
         run: |
           pnpm install
