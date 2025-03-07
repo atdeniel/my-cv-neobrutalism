@@ -21,6 +21,9 @@ jobs:
       - name: Instalar Netlify CLI
         run: npm install -g netlify-cli
 
+      - name: Instalar opennextjs-netlify
+        run: npm install -D @netlify/plugin-nextjs
+
       - name: Instalar pnpm
         run: npm install -g pnpm
 
