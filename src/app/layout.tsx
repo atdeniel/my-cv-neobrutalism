@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeSwitcher } from '@/components/theme-switcher'
 import { ThemeProvider } from '@/components/theme-provider'
 import { LanguageSwitcher } from '@/components/language-switcher'
+import { LanguageProvider } from '@/lib/LanguageContext'
 
 const dmSans = DM_Sans({ subsets: ['latin'] })
 
@@ -19,11 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={dmSans.className}>
-        <ThemeProvider attribute="class" disableTransitionOnChange>
-          {children}
-          <ThemeSwitcher />
-          <LanguageSwitcher />
-        </ThemeProvider>
+        <LanguageProvider>
+          <ThemeProvider attribute="class" disableTransitionOnChange>
+            {children}
+            <ThemeSwitcher />
+            <LanguageSwitcher />
+          </ThemeProvider>
+        </LanguageProvider>
       </body>
     </html>
   )
