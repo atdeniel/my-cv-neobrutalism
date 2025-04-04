@@ -1,30 +1,24 @@
+'use client'
+
+import { useLanguage } from '@/lib/LanguageContext'
+
+interface Experience {
+  title: string;
+  company: string;
+  period: string;
+  description: string;
+}
+
 export default function Experience() {
-  const experiences = [
-    {
-      title: 'Desarrollador Full Stack Senior',
-      company: 'Empresa Tecnológica S.A.',
-      period: 'Enero 2021 - Presente',
-      description: 'Desarrollo de aplicaciones web utilizando React, Next.js y Node.js. Implementación de arquitecturas escalables y mantenimiento de sistemas existentes. Colaboración con equipos de diseño y producto para crear experiencias de usuario excepcionales.',
-    },
-    {
-      title: 'Desarrollador Front-end',
-      company: 'Agencia Digital',
-      period: 'Marzo 2018 - Diciembre 2020',
-      description: 'Creación de interfaces de usuario responsivas y accesibles. Implementación de diseños utilizando HTML, CSS y JavaScript. Optimización del rendimiento de aplicaciones web y colaboración en proyectos de e-commerce.',
-    },
-    {
-      title: 'Desarrollador Web Junior',
-      company: 'Startup Innovadora',
-      period: 'Junio 2016 - Febrero 2018',
-      description: 'Desarrollo de componentes de interfaz de usuario. Mantenimiento de sitios web existentes y colaboración en la implementación de nuevas funcionalidades.',
-    },
-  ]
+  const { t } = useLanguage()
+
+  const experiences = t('experience', 'experiences') as Experience[]
 
   return (
     <section className="border-t-border dark:border-t-darkBorder dark:bg-darkBg border-t-2 bg-bg py-20 font-base lg:py-[100px]">
       <div className="mx-auto w-container max-w-full px-5">
         <h2 className="mb-14 text-center text-2xl font-heading md:text-3xl lg:mb-20 lg:text-4xl">
-          Experiencia Laboral
+          {t('experience', 'title')}
         </h2>
 
         <div className="flex flex-col gap-8">

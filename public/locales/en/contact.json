@@ -1,0 +1,27 @@
+{
+    "title": "Contact",
+    "description": "Interested in working together? Contact me through any of these channels!",
+    "button": "Send Message",
+    "contacts": [
+        {
+            "title": "Email",
+            "value": "tuemail@ejemplo.com",
+            "link": "mailto:tuemail@ejemplo.com"
+        },
+        {
+            "title": "LinkedIn",
+            "value": "linkedin.com/in/tunombre",
+            "link": "https://linkedin.com/in/tunombre"
+        },
+        {
+            "title": "GitHub",
+            "value": "github.com/username",
+            "link": "https://github.com/username"
+        },
+        {
+            "title": "Twitter",
+            "value": "@username",
+            "link": "https://twitter.com/username"
+        }
+    ]
+}

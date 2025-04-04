@@ -1,0 +1,23 @@
+{
+    "title": "Skills",
+    "technicalSkills": "Technical Skills",
+    "categories": [
+        {
+            "title": "Programming Languages",
+            "skills": ["JavaScript", "TypeScript", "Python", "PHP", "HTML", "CSS/SCSS"]
+        },
+        {
+            "title": "Frameworks & Libraries",
+            "skills": ["React", "Next.js", "Vue.js", "Node.js", "Express", "Tailwind CSS"]
+        },
+        {
+            "title": "Tools & Platforms",
+            "skills": ["Git", "Docker", "AWS", "Firebase", "Vercel", "Figma"]
+        },
+        {
+            "title": "Databases",
+            "skills": ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Supabase"]
+        }
+    ]
+}
+    

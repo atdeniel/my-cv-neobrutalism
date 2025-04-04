@@ -1,0 +1,23 @@
+{
+    "title": "Work Experience",
+    "experiences": [
+        {
+            "title": "Senior Full Stack Developer",
+            "company": "Tech Company Inc.",
+            "period": "January 2021 - Present",
+            "description": "Web application development using React, Next.js and Node.js. Implementation of scalable architectures and maintenance of existing systems. Collaboration with design and product teams to create exceptional user experiences."
+        },
+        {
+            "title": "Front-end Developer",
+            "company": "Digital Agency",
+            "period": "March 2018 - December 2020",
+            "description": "Creation of responsive and accessible user interfaces. Implementation of designs using HTML, CSS and JavaScript. Web application performance optimization and collaboration on e-commerce projects."
+        },
+        {
+            "title": "Junior Web Developer",
+            "company": "Innovative Startup",
+            "period": "June 2016 - February 2018",
+            "description": "Development of user interface components. Maintenance of existing websites and collaboration in the implementation of new features."
+        }
+    ]
+}

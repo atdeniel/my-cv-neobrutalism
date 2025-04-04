@@ -1,0 +1,22 @@
+{
+    "title": "Habilidades",
+    "technicalSkills": "Habilidades Técnicas",
+    "categories": [
+        {
+            "title": "Lenguajes de Programación",
+            "skills": ["JavaScript", "TypeScript", "Python", "PHP", "HTML", "CSS/SCSS"]
+        },
+        {
+            "title": "Frameworks y Librerías",
+            "skills": ["React", "Next.js", "Vue.js", "Node.js", "Express", "Tailwind CSS"]
+        },
+        {
+            "title": "Herramientas y Plataformas",
+            "skills": ["Git", "Docker", "AWS", "Firebase", "Vercel", "Figma"]
+        },
+        {
+            "title": "Bases de Datos",
+            "skills": ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Supabase"]
+        }
+    ]
+} 

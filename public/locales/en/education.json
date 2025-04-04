@@ -1,0 +1,23 @@
+{
+    "title": "Education",
+    "studies": [
+    {
+      "degree": "Master in Software Engineering",
+      "institution": "Technological University",
+      "period": "2014 - 2016",
+      "description": "Specialization in web development and software architecture. Final project on performance optimization in React applications."
+    },
+    {
+      "degree": "Bachelor in Computer Science",
+      "institution": "National University",
+      "period": "2010 - 2014",
+      "description": "Training in programming fundamentals, algorithms, data structures and software development."
+    },
+    {
+      "degree": "Full Stack Web Development Certification",
+      "institution": "Code Academy",
+      "period": "2013",
+      "description": "Intensive 12-week program focused on modern web technologies and agile methodologies."
+    }
+  ]
+}

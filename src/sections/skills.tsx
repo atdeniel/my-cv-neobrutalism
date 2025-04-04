@@ -1,30 +1,23 @@
+'use client'
+
 import Marquee from 'react-fast-marquee'
+import { useLanguage } from '@/lib/LanguageContext'
+
+interface SkillCategory {
+  title: string;
+  skills: string[];
+}
 
 export default function Skills() {
-  const skillCategories = [
-    {
-      title: 'Lenguajes de Programación',
-      skills: ['JavaScript', 'TypeScript', 'Python', 'PHP', 'HTML', 'CSS/SCSS']
-    },
-    {
-      title: 'Frameworks & Librerías',
-      skills: ['React', 'Next.js', 'Vue.js', 'Node.js', 'Express', 'Tailwind CSS']
-    },
-    {
-      title: 'Herramientas & Plataformas',
-      skills: ['Git', 'Docker', 'AWS', 'Firebase', 'Vercel', 'Figma']
-    },
-    {
-      title: 'Bases de Datos',
-      skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Supabase']
-    }
-  ]
+  const { t } = useLanguage()
+
+  const skillCategories = t('skills', 'categories') as SkillCategory[]
 
   return (
     <div>
       <section className="border-t-border dark:border-t-darkBorder dark:bg-darkBg border-t-2 bg-bg py-20 font-base lg:py-[100px]">
         <h2 className="mb-14 px-5 text-center text-2xl font-heading md:text-3xl lg:mb-20 lg:text-4xl">
-          Habilidades Técnicas
+          {t('skills', 'title')}
         </h2>
 
         <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-5 px-5 sm:grid-cols-2">
