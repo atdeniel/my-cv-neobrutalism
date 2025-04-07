@@ -2,22 +2,52 @@
     "title": "Experiencia Laboral",
     "experiences": [
         {
-            "title": "Desarrollador Full Stack Senior",
-            "company": "Empresa Tecnológica S.A.",
-            "period": "Enero 2021 - Presente",
-            "description": "Desarrollo de aplicaciones web utilizando React, Next.js y Node.js. Implementación de arquitecturas escalables y mantenimiento de sistemas existentes. Colaboración con equipos de diseño y producto para crear experiencias de usuario excepcionales."
+            "title": "Ingeniero de Software",
+            "company": "Fidelizador",
+            "period": "Abril 2024 - Presente",
+            "description": [
+                "Colaboré en el desarrollo de un motor de asistente AI para la creación de campañas de correo electrónico dinámicas, integrando OpenAI (ChatGPT) para generar contenido a partir de la entrada del usuario.",
+                "Implementé la interfaz de usuario del asistente AI utilizando PHP 5.6 (Symfony), garantizando una experiencia de usuario fluida y eficiente en el diseño y creación de campañas.",
+                "Diseñé y desarrollé la estructura backend del motor de asistente AI y del sistema de plantillas de correo electrónico, utilizando Python 3.7 y MariaDB para la gestión de datos e interacción con IA.",
+                "Optimizé los flujos de diseño de campañas de correo electrónico mediante el desarrollo de un sistema intuitivo de selección de plantillas, mejorando la satisfacción del cliente y la eficiencia operativa.",
+                "Contribuí a la corrección de errores y mejoras en la plataforma, asegurando un código de calidad antes de su envío a QA mediante pruebas unitarias y trabajo colaborativo con el equipo.",
+                "Realicé revisiones de código y proporcioné retroalimentación a los compañeros, elevando la calidad global del código y asegurando el cumplimiento de los estándares de programación."
+            ]
         },
         {
-            "title": "Desarrollador Front-end",
-            "company": "Agencia Digital",
-            "period": "Marzo 2018 - Diciembre 2020",
-            "description": "Creación de interfaces de usuario responsivas y accesibles. Implementación de diseños utilizando HTML, CSS y JavaScript. Optimización del rendimiento de aplicaciones web y colaboración en proyectos de e-commerce."
+            "title": "Ingeniero de Software",
+            "company": "Destacame",
+            "period": "Noviembre 2020 - Abril 2024",
+            "description": [
+                "Diseñé y desarrollé un sistema de gestión de cobranzas para optimizar las operaciones de crédito, con el objetivo de reducir las tasas de incumplimiento y promover pagos oportunos. Utilicé Django (patrón Active Record) e integré servicios de AWS, incluyendo EC2 y RDS.",
+                "Desarrollé e implementé una funcionalidad de pago automático de crédito para Santander Consumer en pagaloaqui.cl, utilizando Django, AWS Lambda y DynamoDB para soportar transacciones distribuidas. Esta solución mejoró el flujo de caja y amplió los servicios financieros ofrecidos.",
+                "Implementé métodos de cobranza de crédito de alto volumen utilizando la pila de AWS (Lambda, DynamoDB, EC2, S3, SNS, SQS, RDS), garantizando la escalabilidad y alta disponibilidad con tiempos de inactividad mínimos.",
+                "Colaboré con el equipo de DevOps para establecer un pipeline de CI utilizando AWS CodePipeline, integrando GitHub, etapas de construcción y despliegue en ECS, asegurando la estabilidad del sistema y facilitando los despliegues.",
+                "Diseñé y optimicé bases de datos relacionales (PostgreSQL) y NoSQL (DynamoDB), mejorando el rendimiento y la escalabilidad en los servicios ofrecidos."
+            ]
         },
         {
-            "title": "Desarrollador Web Junior",
-            "company": "Startup Innovadora",
-            "period": "Junio 2016 - Febrero 2018",
-            "description": "Desarrollo de componentes de interfaz de usuario. Mantenimiento de sitios web existentes y colaboración en la implementación de nuevas funcionalidades."
+            "title": "Ingeniero de Software",
+            "company": "Imagemaker",
+            "period": "Octubre 2019 - Noviembre 2020",
+            "description": [
+                "Desarrollé soluciones backend escalables utilizando Java 11 con el Framework Spring, aplicando principios de Domain-Driven Design (DDD) para mejorar la confiabilidad y mantenibilidad del sistema.",
+                "Mejoré el portal principal del Broker de Seguros de Banco de Chile, implementando mejoras en la experiencia de usuario y en el rendimiento del sitio.",
+                "Diseñé y desarrollé APIs RESTful, habilitando una integración fluida y la comunicación entre los componentes del sistema.",
+                "Desarrollé características front-end utilizando JavaScript (jQuery) y ReactJS, creando interfaces de usuario intuitivas, responsivas y de alto rendimiento.",
+                "Apliqué prácticas de desarrollo dirigido por pruebas utilizando JUnit y Mockito, asegurando la calidad y estabilidad del código.",
+                "Trabajé en un equipo Agile SCRUM, promoviendo la entrega continua, la colaboración entre equipos y la adaptación a los cambios requeridos por el cliente."
+            ]
+        },
+        {
+            "title": "Ingeniero de Software",
+            "company": "Tecnova",
+            "period": "Marzo 2017 - Octubre 2019",
+            "description": [
+                "Desarrollé una aplicación web para DGAC para gestionar las asignaciones de personal de aeropuertos en todo Chile, implementando la funcionalidad de arrastrar y soltar para asignaciones interactivas utilizando Java (Spring Framework) y PostgreSQL.",
+                "Desarrollé un sistema de gestión de metadatos para VTR, facilitando la edición eficiente de metadatos de programas en decodificadores de TV, utilizando Java (Spring) y Oracle SQL. Esta solución redujo iteraciones manuales y errores, optimizando costos y eficiencia operativa.",
+                "Proveí soluciones web personalizadas para diversos clientes utilizando Java (Spring), JavaScript (jQuery, AngularJS), Bootstrap y Oracle SQL, trabajando en equipos Agile SCRUM para garantizar entregas rápidas y mejoras continuas."
+            ]
         }
     ]
 }

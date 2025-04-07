@@ -1,23 +1,11 @@
 {
     "title": "Educación",
     "studies": [
-    {
-      "degree": "Máster en Ingeniería de Software",
-      "institution": "Universidad Tecnológica",
-      "period": "2014 - 2016",
-      "description": "Especialización en desarrollo web y arquitectura de software. Proyecto final sobre optimización de rendimiento en aplicaciones React."
-    },
-    {
-      "degree": "Licenciatura en Ciencias de la Computación",
-      "institution": "Universidad Nacional",
-      "period": "2010 - 2014",
-      "description": "Formación en fundamentos de programación, algoritmos, estructuras de datos y desarrollo de software."
-    },
-    {
-      "degree": "Certificación en Desarrollo Web Full Stack",
-      "institution": "Academia de Código",
-      "period": "2013",
-      "description": "Programa intensivo de 12 semanas enfocado en tecnologías web modernas y metodologías ágiles."
-    }
-  ]
+        {
+            "degree": "Ingeniero en Informática",
+            "institution": "Universidad Católica Andrés Bello - UCAB",
+            "period": "2008 - 2016",
+            "description": "Un ingeniero en informática graduado de la Universidad Católica Andrés Bello en Venezuela es un profesional altamente cualificado entrenado en diseño tanto de hardware como de software. El ingeniero tiene una base sólida en matemáticas, física y programación, lo que le permite resolver desafíos de ingeniería complejos y crear innovaciones en sistemas digitales, telecomunicaciones y tecnologías de red. Este enfoque en conocimientos teóricos rigurosos y experiencia práctica, hands-on, le prepara para destacar en diversas industrias o perseguir estudios avanzados."
+        }
+    ]
 }

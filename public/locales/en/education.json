@@ -2,22 +2,10 @@
     "title": "Education",
     "studies": [
     {
-      "degree": "Master in Software Engineering",
-      "institution": "Technological University",
-      "period": "2014 - 2016",
-      "description": "Specialization in web development and software architecture. Final project on performance optimization in React applications."
-    },
-    {
-      "degree": "Bachelor in Computer Science",
-      "institution": "National University",
-      "period": "2010 - 2014",
-      "description": "Training in programming fundamentals, algorithms, data structures and software development."
-    },
-    {
-      "degree": "Full Stack Web Development Certification",
-      "institution": "Code Academy",
-      "period": "2013",
-      "description": "Intensive 12-week program focused on modern web technologies and agile methodologies."
+      "degree": "Computer Engineering",
+      "institution": "Universidad Católica Andres Bello - UCAB",
+      "period": "2008 - 2016",
+      "description": "A graduate computer engineer from Universidad Católica Andrés Bello in Venezuela is a highly skilled professional trained in both hardware and software design. The engineer has a strong foundation in mathematics, physics, and programming, enabling them to solve complex engineering challenges and innovate in digital systems, telecommunications, and network technologies. This blend of rigorous theoretical knowledge and practical, hands-on experience prepares them to excel in diverse industries or pursue advanced studies."
     }
   ]
 }

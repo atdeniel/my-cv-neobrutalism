@@ -46,8 +46,8 @@ export default function Skills() {
           className="border-y-border dark:border-y-darkBorder dark:border-darkBorder dark:bg-secondaryBlack border-y-2 bg-white py-3 font-base sm:py-5"
           direction="left"
         >
-          {['React', 'Next.js', 'TypeScript', 'Node.js', 'Tailwind CSS', 'MongoDB', 'AWS', 'Docker'].map((skill, id) => (
-            <div className="flex items-center" key={id}>
+          {t('skills', 'categoriesBanner').map((skill: string) => (
+            <div className="flex items-center" key={skill}>
               <span className="mx-8 text-xl font-heading sm:text-2xl lg:text-4xl">
                 {skill}
               </span>

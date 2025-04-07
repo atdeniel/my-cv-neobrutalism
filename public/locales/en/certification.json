@@ -1,0 +1,17 @@
+{
+    "title": "Certification and Courses",
+    "certifications": [
+        {
+            "degree": "AWS Certified AI Practitioner",
+            "institution": "Amazon Web Services",
+            "period": "2025",
+            "description": "The AWS Certified AI Practitioner validates in-demand knowledge of artificial intelligence (AI), machine learning (ML), and generative AI concepts and use cases. Sharpen your competitive edge and position yourself for career growth and higher earnings."
+        },
+        {
+            "degree": "AWS Certified Cloud Practitioner",
+            "institution": "Amazon Web Services",
+            "period": "2024",
+            "description": "The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology.  This is a good starting point on the AWS Certification journey for individuals with no prior IT or cloud experience switching to a cloud career or for line-of-business employees looking for foundational cloud literacy."
+        }
+  ]
+}

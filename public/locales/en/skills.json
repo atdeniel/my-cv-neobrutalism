@@ -4,20 +4,29 @@
     "categories": [
         {
             "title": "Programming Languages",
-            "skills": ["JavaScript", "TypeScript", "Python", "PHP", "HTML", "CSS/SCSS"]
+            "skills": ["JavaScript", "TypeScript", "Python", "PHP", "Java", "HTML", "CSS/SCSS"]
         },
         {
             "title": "Frameworks & Libraries",
-            "skills": ["React", "Next.js", "Vue.js", "Node.js", "Express", "Tailwind CSS"]
+            "skills": ["Django", "FastAPI", "Spring", "React", "Next.js", "Node.js", "Symfony"]
+        },
+        {
+            "title": "Amazon Web Services (AWS)",
+            "skills": ["EC2", "RDS", "Lambda", "DynamoDB", "S3", "SNS", "SQS", "CloudWatch", "CloudFront", "API Gateway"]
         },
         {
             "title": "Tools & Platforms",
-            "skills": ["Git", "Docker", "AWS", "Firebase", "Vercel", "Figma"]
+            "skills": ["Git", "Docker", "AWS"]
+        },
+        {
+            "title": "Testing",
+            "skills": ["Python unittest"]
         },
         {
             "title": "Databases",
-            "skills": ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Supabase"]
+            "skills": ["PostgreSQL", "DynamoDB", "MySQL", "MariaDB"]
         }
-    ]
+    ],
+    "categoriesBanner": ["JavaScript", "Python", "AWS", "Django", "FastAPI", "Docker", "SQL", "NoSQL", "AI"]
 }
     

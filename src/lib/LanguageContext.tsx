@@ -38,6 +38,10 @@ const translations: TranslationsType = {
   education: {
     [LOCALES.ENGLISH]: {},
     [LOCALES.SPANISH]: {}
+  },
+  certification: {
+    [LOCALES.ENGLISH]: {},
+    [LOCALES.SPANISH]: {}
   }
 };
 
@@ -78,6 +82,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         const esEducationData = await esEducationResponse.json();
         translations.education[LOCALES.SPANISH] = esEducationData;
 
+        const esCertificationResponse = await fetch('/locales/es/certification.json');
+        const esCertificationData = await esCertificationResponse.json();
+        translations.certification[LOCALES.SPANISH] = esCertificationData;
+
         // Load translations for english
         const enHeaderResponse = await fetch('/locales/en/header.json');
         const enHeaderData = await enHeaderResponse.json();
@@ -98,6 +106,10 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         const enEducationResponse = await fetch('/locales/en/education.json');
         const enEducationData = await enEducationResponse.json();
         translations.education[LOCALES.ENGLISH] = enEducationData;
+
+        const enCertificationResponse = await fetch('/locales/en/certification.json');
+        const enCertificationData = await enCertificationResponse.json();
+        translations.certification[LOCALES.ENGLISH] = enCertificationData;
 
         setIsLoading(false);
       } catch (error) {

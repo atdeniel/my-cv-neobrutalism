@@ -2,22 +2,52 @@
     "title": "Work Experience",
     "experiences": [
         {
-            "title": "Senior Full Stack Developer",
-            "company": "Tech Company Inc.",
-            "period": "January 2021 - Present",
-            "description": "Web application development using React, Next.js and Node.js. Implementation of scalable architectures and maintenance of existing systems. Collaboration with design and product teams to create exceptional user experiences."
+            "title": "Software Engineer",
+            "company": "Fidelizador",
+            "period": "April 2024 - Present",
+            "description": [
+                "Collaborated in the development of an AI-powered assistant engine, enabling dynamic email campaign creation by integrating OpenAI (ChatGPT) for content generation based on user input.",
+                "Implemented frontend for the AI assistant using PHP 5.6 (Symfony), enabling a seamless user experience in campaign design and template generation.",
+                "Designed and built the backend structure for the AI engine and email template system, utilizing Python 3.7 and MariaDB to handle data management and AI interactions.",
+                "Optimized email campaign design workflows by developing an intuitive template selection system, improving client satisfaction and campaign efficiency.",
+                "Contributed to bug fixing and improvements in the platform, ensuring quality code before sending to QA through unit testing and collaboration with the team.",
+                "Conducted code reviews and provided feedback to teammates, improving overall code quality and maintaining coding standards."
+            ]
         },
         {
-            "title": "Front-end Developer",
-            "company": "Digital Agency",
-            "period": "March 2018 - December 2020",
-            "description": "Creation of responsive and accessible user interfaces. Implementation of designs using HTML, CSS and JavaScript. Web application performance optimization and collaboration on e-commerce projects."
+            "title": "Full Stack Engineer",
+            "company": "Destacame",
+            "period": "November 2020 - April 2024",
+            "description": [
+                "Led the design and development of a Collections Manager system to support credit operations, aimed at reducing delinquency rates and promoting timely repayments. Built using Django (Active Record pattern) and integrated with AWS services, including EC2 and RDS.",
+                "Developed and launched a new automotive credit installment feature for Santander Consumer on pagaloaqui.cl, leveraging Django, AWS Lambda, and DynamoDB to support distributed transactions. This solution improved cash flow and expanded financial service offerings.",
+                "Implemented high-volume credit collection methods using the AWS stack (Lambda, DynamoDB, EC2, S3, SNS, SQS, RDS), ensuring scalability and high availability with minimal downtime.",
+                "Collaborated with DevOps to establish a CI pipeline via AWS CodePipeline, integrating GitHub, build stages, and ECS deployment. Ensured system stability and streamlined deployments.",
+                "Designed and optimized both SQL (PostgreSQL) and NoSQL (DynamoDB) databases, improving performance and scalability across services."
+            ]
         },
         {
-            "title": "Junior Web Developer",
-            "company": "Innovative Startup",
-            "period": "June 2016 - February 2018",
-            "description": "Development of user interface components. Maintenance of existing websites and collaboration in the implementation of new features."
+            "title": "Software Engineer",
+            "company": "Imagemaker",
+            "period": "October 2019 - November 2020",
+            "description": [
+                "Developed scalable backend solutions using Java 11 with the Spring Framework, following Domain-Driven Design (DDD) principles to enhance reliability and maintainability.",
+                "Improved the main portal of Banco de Chile’s Insurance Broker, delivering enhancements in user experience and site performance.",
+                "Designed and implemented RESTful APIs, enabling seamless integration and communication between system components.",
+                "Built front-end features using JavaScript (jQuery) and ReactJS, delivering intuitive, responsive, and high-performance user interfaces.",
+                "Applied test-driven development practices using JUnit and Mockito, ensuring code quality and stability.",
+                "Worked within an Agile SCRUM team, promoting continuous delivery, cross-functional collaboration, and rapid adaptation to changing requirements."
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Tecnova",
+            "period": "March 2017 - October 2019",
+            "description": [
+                "Developed a web application for DGAC to manage airport personnel assignments across Chilean airports. Implemented drag-and-drop functionality for interactive allocation using Java (Spring Framework) with the Active Record pattern and PostgreSQL.",
+                "Built a metadata management system for VTR, enabling efficient editing of program metadata on TV decoders. Used Java (Spring) and Oracle SQL to reduce manual iterations and programming errors, significantly cutting costs and improving operational efficiency.",
+                "Delivered tailored web solutions for multiple clients using Java (Spring), JavaScript (jQuery, AngularJS), Bootstrap, and Oracle SQL. Participated in Agile SCRUM teams to ensure rapid delivery and continuous improvement."
+            ]
         }
     ]
 }

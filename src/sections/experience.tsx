@@ -32,7 +32,14 @@ export default function Experience() {
                 <span className="text-sm font-medium">{experience.period}</span>
               </div>
               <h4 className="text-lg font-medium">{experience.company}</h4>
-              <p className="text-base">{experience.description}</p>
+              <ul className="list-disc pl-4 space-y-2">
+                {Array.isArray(experience.description) 
+                  ? experience.description.map((item, index) => (
+                      <li key={index} className="text-base">{item}</li>
+                    ))
+                  : <li className="text-base">{experience.description}</li>
+                }
+              </ul>
             </div>
           ))}
         </div>
