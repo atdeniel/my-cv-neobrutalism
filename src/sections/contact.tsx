@@ -7,6 +7,8 @@ interface ContactInfo {
   title: string;
   value: string;
   link: string;
+  color: string;
+  hover: string;
 }
 
 export default function Contact() {
@@ -34,12 +36,9 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   key={i}
-                  className={`border-border dark:border-darkBorder hover:shadow-light dark:hover:shadow-dark flex flex-col items-center rounded-base border-2 p-4 transition-all hover:translate-x-[-4px] hover:translate-y-[-4px] text-white`}
+                  className={`border-border dark:border-darkBorder hover:shadow-light dark:hover:shadow-dark flex flex-col items-center rounded-base border-2 p-4 transition-all hover:translate-x-[-4px] hover:translate-y-[-4px] text-white hover:opacity-90`}
                   style={{
-                    backgroundColor: contact.color,
-                    '&:hover': {
-                      backgroundColor: contact.hover
-                    }
+                    backgroundColor: contact.color
                   }}
                 >
                   <h3 className="text-lg font-heading">{contact.title}</h3>
