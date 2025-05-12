@@ -32,7 +32,7 @@ export default function Education() {
                 <span className="text-sm font-medium">{study.period}</span>
               </div>
               <h4 className="text-lg font-medium">{study.institution}</h4>
-              <p className="text-xs">{study.description}</p>
+              <p className="text-xs text-justify">{study.description}</p>
             </div>
           ))}
         </div>

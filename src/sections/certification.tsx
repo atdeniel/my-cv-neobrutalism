@@ -32,7 +32,7 @@ export default function Certification() {
                 <span className="text-sm font-medium">{certification.period}</span>
               </div>
               <h4 className="text-lg font-medium">{certification.institution}</h4>
-              <p className="text-xs">{certification.description}</p>
+              <p className="text-xs text-justify">{certification.description}</p>
             </div>
           ))}
         </div>

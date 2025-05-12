@@ -1,6 +1,8 @@
 'use client'
 
 import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
+import FullPageLoader from '@/components/full-page-loader'; // ajusta la ruta si es necesario
+
 
 // Define available locales
 export const LOCALES = {
@@ -130,7 +132,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   };
 
   if (isLoading) {
-    return <div>Loading translations...</div>;
+    return <FullPageLoader />;
   }
 
   return (

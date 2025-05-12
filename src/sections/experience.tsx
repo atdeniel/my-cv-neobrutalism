@@ -35,9 +35,9 @@ export default function Experience() {
               <ul className="list-disc pl-4 space-y-2">
                 {Array.isArray(experience.description) 
                   ? experience.description.map((item, index) => (
-                      <li key={index} className="text-base">{item}</li>
+                      <li key={index} className="text-base text-justify">{item}</li>
                     ))
-                  : <li className="text-base">{experience.description}</li>
+                  : <li className="text-base text-justify">{experience.description}</li>
                 }
               </ul>
             </div>

@@ -24,15 +24,15 @@ export default function Header() {
             className="h-12 text-base font-heading md:text-lg lg:h-14 lg:text-xl"
             asChild
           >
-            <a href="mailto:tuemail@ejemplo.com">{t('header', 'contact')}</a>
+            <a href="#contact">{t('header', 'contact')}</a>
           </Button>
           <Button
             size="lg"
-            variant="neutral"
-            className="h-12 text-base font-heading md:text-lg lg:h-14 lg:text-xl"
+            variant="default"
+            className="h-12 text-base font-heading md:text-lg lg:h-14 lg:text-xl bg-[#0077B5] hover:bg-[#006399] text-white"
             asChild
           >
-            <a href="#" download>{t('header', 'download')}</a>
+            <a target="_blank" href={`${t('header', 'linkedinUrl')}`}>{t('header', 'linkedin')}</a>
           </Button>
         </div>
       </div>

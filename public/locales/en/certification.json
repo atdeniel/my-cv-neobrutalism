@@ -8,6 +8,12 @@
             "description": "The AWS Certified AI Practitioner validates in-demand knowledge of artificial intelligence (AI), machine learning (ML), and generative AI concepts and use cases. Sharpen your competitive edge and position yourself for career growth and higher earnings."
         },
         {
+            "degree": "Advanced Prompt Engineering",
+            "institution": "Vanderbilt University",
+            "period": "2025",
+            "description": "The course Advanced Prompt Engineering for Everyone from Vanderbilt University teaches advanced techniques to improve interaction with AI models like ChatGPT. It covers topics such as in-context learning, RAG, and effective prompt design."
+        },
+        {
             "degree": "AWS Certified Cloud Practitioner",
             "institution": "Amazon Web Services",
             "period": "2024",

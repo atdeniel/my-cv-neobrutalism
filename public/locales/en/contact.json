@@ -2,21 +2,28 @@
     "title": "Contact",
     "description": "Interested in working together? Contact me through any of these channels!",
     "button": "Send Message",
+    "email": "jdmoros@itdeniel.com",
     "contacts": [
         {
             "title": "Email",
-            "value": "tuemail@ejemplo.com",
-            "link": "mailto:tuemail@ejemplo.com"
+            "value": "jdmoros@itdeniel.com",
+            "link": "mailto:jdmoros@itdeniel.com",
+            "color": "#EA4335",
+            "hover": "#D33426"
         },
         {
             "title": "LinkedIn",
-            "value": "linkedin.com/in/tunombre",
-            "link": "https://linkedin.com/in/tunombre"
+            "value": "linkedin.com/in/itdeniel",
+            "link": "https://linkedin.com/in/itdeniel",
+            "color": "#0077B5",
+            "hover": "#006399"
         },
         {
             "title": "GitHub",
-            "value": "github.com/username",
-            "link": "https://github.com/username"
+            "value": "github.com/itdeniel",
+            "link": "https://github.com/itdeniel",
+            "color": "#24292E",
+            "hover": "#1b1f23"
         }
     ]
 }
